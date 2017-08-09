@@ -17,13 +17,22 @@ namespace ElasticSink
 
 
             var logger = loggerConfig.CreateLogger();
+            var user = new User();
 
             for (int i = 0; i < 5; i++)
             {
-                logger.Information("The {user} has access to {resource}", "cengiz", $"resource-{i}");
+                logger.Information("The {@User} has access to {Resource}", user, $"resource-{i}");
             }
-            Console.ReadLine();
 
+
+            System.Console.WriteLine("Press any key to exit");
+            Console.ReadLine();
         }
+    }
+
+     public class User
+    {
+        public string Email { get; set; } = "revocengiz@gmail.com";
+        public string Name { get; set; } = "Cengiz";
     }
 }
