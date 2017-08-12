@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26711.1
+VisualStudioVersion = 15.0.26730.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpSink", "HttpSink\HttpSink.csproj", "{DA59F9E0-B70D-4D47-90C6-370A849FC8C6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElasticSink", "ElasticSink\ElasticSink.csproj", "{94DD1039-7488-4872-8D8A-B1EDF5CA85E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpSinkWebApp", "HttpSinkWebApp\HttpSinkWebApp.csproj", "{519257A2-1F9A-46C9-B20A-6BE1FEE22DF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{94DD1039-7488-4872-8D8A-B1EDF5CA85E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94DD1039-7488-4872-8D8A-B1EDF5CA85E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94DD1039-7488-4872-8D8A-B1EDF5CA85E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{519257A2-1F9A-46C9-B20A-6BE1FEE22DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519257A2-1F9A-46C9-B20A-6BE1FEE22DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519257A2-1F9A-46C9-B20A-6BE1FEE22DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519257A2-1F9A-46C9-B20A-6BE1FEE22DF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

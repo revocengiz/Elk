@@ -16,7 +16,7 @@ namespace ElasticSink
             });
 
 
-            var logger = loggerConfig.CreateLogger();
+            var logger = loggerConfig.CreateLogger().ForContext<ElasticSink.Program>(); ;
             var user = new User();
 
             for (int i = 0; i < 5; i++)
